@@ -130,3 +130,75 @@ nav {
 }
 
 /* menu slut */
+
+/*footer start*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  max-width: 1200px;
+  margin: auto;
+}
+
+/*FOOTER*/
+
+@media (min-width: 1000px) {
+  .grid_footer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 26%;
+  }
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #0f084b;
+  color: aliceblue;
+  position: relative;
+  margin: 0;
+  font-size: 15px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  line-height: 1.5rem;
+}
+
+.kontaktos {
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+}
+
+.ydelser {
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+}
+
+.omos {
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  padding-right: 3rem;
+}
+
+.kontaktosoverskrift {
+  padding-bottom: 0.5rem;
+}
+
+.ydelseroverskrift {
+  padding-bottom: 0.5rem;
+}
+
+.omosoverskrift {
+  padding-bottom: 0.5rem;
+}
+
+h3 {
+  font-family: "Playfair Display";
+}
+
+p {
+  font-family: "Hind Madurai";
+}
+/*footer slut*/
