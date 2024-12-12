@@ -1,0 +1,16 @@
+img {
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media (min-width: 1200px) {
+  .grid1_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
