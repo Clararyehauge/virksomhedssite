@@ -14,3 +14,24 @@ img {
     grid-template-columns: 1fr 1fr;
   }
 }
+
+@media (min-width: 600px) {
+  .grid1_2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5%;
+  }
+}
+
+@media (min-width: 400px) {
+  .grid1_3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #f77f00;
+    padding: 10px;
+  }
+  .grid1_3 img {
+    align-self: stretch;
+    object-fit: cover;
+  }
+}
