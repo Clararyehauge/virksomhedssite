@@ -1,4 +1,8 @@
-/* farvekoder */
+/**
+ * farvekoder
+ *
+ * @format
+ */
 
 /* 
 #F77F00
@@ -14,9 +18,9 @@ font-family: "Hind Madurai"
 font-family: "DM Sans" 
 */
 :root {
-  --primary: #5000ca;
-  --secondary: #463866;
-  --accent: #fb28a8;
+  --primary: #0f084b;
+  --secondary: #d6eaf8;
+  --accent: #f77f00;
 
   --space-xxs: 0.25rem;
   --space-xs: 0.5rem;
