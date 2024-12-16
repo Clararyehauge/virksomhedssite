@@ -13,10 +13,13 @@ body {
   padding: 20px;
   margin: 0;
 }
-img {
-  width: 70%;
+.img3_1 {
+  width: 400px;
   height: auto;
   display: block;
+  padding: 20px;
+  z-index: 4;
+  position: relative;
 }
 .header {
   position: relative;
@@ -45,14 +48,24 @@ ul {
   padding: 20px;
 }
 .knap3 {
+  display: inline-block;
   background-color: grey;
+  width: 100px;
+  height: 40px;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  color: #0f084b;
+  padding: 2%;
+  border: solid 1px #aed6f1;
 }
 .grid3_2 {
+  padding: 10px;
   margin-top: 3rem;
   background-color: #d6eaf8;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 20px;
+  gap: 40px;
   margin-top: 20px;
   margin-bottom: 20px;
   padding-bottom: 20px;
@@ -75,7 +88,6 @@ ul {
 .orange {
   width: 80px;
   height: 80px;
-
   background: #f77f00;
   position: absolute;
   left: 6%;
@@ -87,14 +99,81 @@ ul {
   margin-left: 60px;
 }
 .priser {
-  background-color: #d6eaf8;
+  border: #aed6f1;
   border-width: 8px;
+  border-color: #d6eaf8;
+}
+.lovpakken {
+  margin-top: 5rem;
+  margin-left: 3rem;
+  z-index: 1;
+  position: relative;
+}
+.blue3_2 {
+  width: 80px;
+  height: 80px;
+  background: #d6eaf8;
+  position: absolute;
+  left: 4%;
+  bottom: -97%;
+  z-index: 0;
+}
+.orange3_1 {
+  background-color: #f77f00;
+  position: absolute;
+  height: 260px;
+  width: 340px;
+
+  z-index: 0;
+  top: 222%;
+  left: 18%;
+}
+/*********************PRISER********************/
+.priser_list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+.pris {
+  flex-shrink: 0;
+  padding-left: 10px;
+  position: absolute;
+  right: 720px;
+  z-index: 1;
+}
+.navn {
+  flex-grow: 1;
+  position: relative;
+  text-align: left;
+}
+.navn::after {
+  content: "..............................................................................";
+  position: absolute;
+  left: 255px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.pris_list li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.discount {
+  color: #f77f00;
+  position: absolute;
+  right: 47%;
 }
 @media (min-width: 600px) {
   .grid3_1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
+  }
+  .grid3_2 {
+    gap: 60px;
+    padding-left: 100px;
+    padding-right: 100px;
   }
   .list p {
     font-family: "Hind Madurai";
@@ -116,5 +195,37 @@ ul {
   .blue3_1 {
     top: 20%;
     left: 12%;
+  }
+  .grid3_3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .blue3_2 {
+    width: 80px;
+    height: 80px;
+    background: #d6eaf8;
+    position: absolute;
+    left: 11%;
+    bottom: -59%;
+    z-index: 0;
+  }
+  .img3_1 {
+    width: 600px;
+    height: auto;
+    display: block;
+    padding: 20px;
+    z-index: 4;
+    position: relative;
+  }
+
+  .orange3_1 {
+    background-color: #f77f00;
+    position: absolute;
+    height: 400px;
+    width: 480px;
+
+    z-index: 0;
+    top: 143%;
+    left: 58%;
   }
 }
