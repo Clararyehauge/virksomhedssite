@@ -97,10 +97,59 @@ button:hover {
 
 .anmeldelser {
   text-align: center;
-  padding: 20px;
-  background: #f9f9f9;
   border: 1px solid #ccc;
   border-radius: 5px;
+    background-color: #111; 
+    color: #fff; 
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.reviews-section h2 {
+    margin-bottom: 30px;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.reviews-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.review {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.stars {
+    color: #00C76D; /* Trustpilot green */
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.review h3 {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+.review p {
+    margin: 10px 0;
+    line-height: 1.5;
+}
+
+.reviewer {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.reviewer span {
+    font-size: 0.9em;
+    color: #aaa;
+}
+
 }
 
 .anmeldelser h2 {
