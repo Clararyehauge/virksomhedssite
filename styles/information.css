@@ -9,19 +9,18 @@ main {
   padding: 0;
   box-sizing: border-box;
 }
-body {
+main {
   padding-inline: 20px;
   margin: 0;
 }
-p,
+
 .img3_1 {
-  width: 400px;
+  width: 200%;
   height: auto;
   display: block;
-  padding: 20px;
-  z-index: 4;
-  position: relative;
+  box-shadow: 5px 10px #f77f00;
 }
+
 .header {
   position: relative;
   text-align: center;
@@ -36,15 +35,7 @@ p,
   z-index: 1;
   padding: 40px;
 }
-.blue3_1 {
-  position: absolute;
-  height: 410px;
-  width: 300px;
-  background-color: #0f084b;
-  z-index: 0;
-  top: 20%;
-  left: 40%;
-}
+
 ul {
   padding: 20px;
 }
@@ -65,11 +56,8 @@ ul {
   margin-top: 3rem;
   background-color: #d6eaf8;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 40px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
+
+  padding-bottom: 5px;
 }
 .list span {
   color: #aed6f1;
@@ -79,20 +67,20 @@ ul {
   font-weight: 600;
   line-height: normal;
 }
-.p {
+/***.p {
   font-family: "Hind Madurai";
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-}
+}**/
 .orange {
   width: 80px;
   height: 80px;
   background: #f77f00;
   position: absolute;
   left: 6%;
-  bottom: -7%;
+  bottom: -8%;
   z-index: 0;
 }
 .italic {
@@ -119,16 +107,7 @@ ul {
   bottom: -97%;
   z-index: 0;
 }
-.orange3_1 {
-  background-color: #f77f00;
-  position: absolute;
-  height: 260px;
-  width: 340px;
 
-  z-index: 0;
-  top: 230%;
-  left: 22%;
-}
 /*********************PRISER********************/
 .priser_list li {
   display: flex;
@@ -171,6 +150,10 @@ ul {
   color: #f77f00;
   font-weight: 600;
 }
+.opmaerksom {
+  margin-top: 2rem;
+  width: 300px;
+}
 @media (min-width: 600px) {
   p {
     font-size: 16;
@@ -185,7 +168,18 @@ ul {
     padding-left: 100px;
     padding-right: 100px;
   }
-  .list p {
+  .grid3_2 {
+    padding: 10px;
+    margin-top: 3rem;
+    background-color: #d6eaf8;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+  .list {
     font-family: "Hind Madurai";
     font-size: 16px;
     font-style: normal;
@@ -215,29 +209,19 @@ ul {
     height: 80px;
     background: #d6eaf8;
     position: absolute;
-    left: 11%;
-    bottom: -59%;
+    left: 15%;
+    bottom: -72%;
     z-index: 0;
   }
   .img3_1 {
-    width: 600px;
+    width: 100%;
     height: auto;
     display: block;
-    padding: 20px;
-    z-index: 4;
+
     position: relative;
+    box-shadow: 5px 10px #f77f00;
   }
 
-  .orange3_1 {
-    background-color: #f77f00;
-    position: absolute;
-    height: 400px;
-    width: 480px;
-
-    z-index: 0;
-    top: 143%;
-    left: 58%;
-  }
   /*********************PRISER********************/
   .priser_list li {
     display: flex;
