@@ -73,6 +73,15 @@ li {
   grid-template-rows: 1fr 1fr;
   position: relative;
 }
+.container_3 {
+  margin-top: 2rem;
+  display: grid;
+  width: 50px;
+  height: 80px;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr 1fr;
+  position: relative;
+}
 
 .blue3_2 {
   width: 80px;
@@ -155,6 +164,7 @@ li {
 .opmaerksom {
   margin-top: 2rem;
   width: 400px;
+  margin-left: -25px;
 }
 
 .list {
@@ -204,20 +214,35 @@ li {
 .ul_1 {
   z-index: 2;
 }
+.grid3_4 {
+  background-color: #d6eaf8;
+}
+.orange1 {
+  width: 80px;
+  height: 80px;
+  background: #f77f00;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  z-index: -1;
+}
 @media (min-width: 600px) {
+  .ul_2 {
+    max-width: 400px;
+  }
   .priser_list1,
   .priser_list2 {
     width: 500px;
   }
   .grid3_4 {
+    background-color: #d6eaf8;
     display: grid;
     grid-template-columns: 1fr 1fr;
 
     gap: 40px;
   }
   .opmaerksom {
-    margin-top: 100px;
-    margin-left: 500px;
+    margin-top: 25px;
+    margin-left: -40px;
   }
   .ul_1 {
     margin-top: 7rem;
@@ -228,10 +253,8 @@ li {
   }
   .img_section img {
     margin-left: 80px;
-    margin-bottom: 80px;
-    width: 80%;
+    width: 90%;
     height: auto;
-    display: inline-block;
     position: relative;
     box-shadow: 15px 10px #0f084b;
   }
@@ -253,6 +276,14 @@ li {
     grid-row: 1/2;
     z-index: -1;
     margin-left: 50%;
+  }
+  .orange1 {
+    width: 80px;
+    height: 80px;
+    background: #f77f00;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    z-index: -1;
   }
   .italic {
     font-style: italic;
