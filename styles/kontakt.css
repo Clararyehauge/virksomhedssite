@@ -55,11 +55,6 @@ main {
   font-weight: bold;
 }
 
-.name-text {
-  font-size: 0.9em;
-  color: #666;
-}
-
 .images-with-buttons {
   display: flex;
   justify-content: space-around;
