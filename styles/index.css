@@ -35,3 +35,14 @@ img {
     object-fit: cover;
   }
 }
+
+@media (min-width: 1200px) {
+  .grid1_4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.blaabaggrundsfarve {
+  background-color: #aed6f1;
+}
