@@ -89,7 +89,7 @@ main {
 
 button {
   padding: 10px 20px;
-  background: #007bff;
+  background: #1e0c71;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -97,7 +97,7 @@ button {
 }
 
 button:hover {
-  background: #0056b3;
+  background: #103256;
 }
 
 .anmeldelser {
