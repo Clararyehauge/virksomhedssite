@@ -29,14 +29,16 @@ img {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     background-color: #f77f00;
-    padding: 10px;
-    gap: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    /* gap: 10px; */
   }
 
   .kategorier {
     font-family: "DM sans";
     text-align: center;
-    padding: 1%;
+    padding: 1.5%;
+    letter-spacing: 2px;
   }
 
   .grid1_3 img {
@@ -161,3 +163,39 @@ h2 {
     padding-block: 30px;
   }
 } */
+
+.undervisning {
+  width: 400px;
+  height: auto;
+}
+]
+
+
+/*lovpakke*/
+@media (min-width: 800px) {
+  .lovpakke {
+    padding-left: 30%;
+    padding-right: 30%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+  }
+}
+
+/*Information*/
+@media (min-width: 800px) {
+  .informationtekst {
+    padding: 10%;
+  }
+}
+.test {
+  padding: 10%;
+}
+
+/*gratis information*/
+@media (min-width: 800px) {
+  .gratisinformation {
+    padding-left: 30%;
+    padding-right: 30%;
+    margin-bottom: 5%;
+  }
+}
