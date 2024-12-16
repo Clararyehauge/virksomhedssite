@@ -107,15 +107,16 @@ img {
   position: relative;
   z-index: 1;
   padding: 40px;
+  left: 7%;
 }
 .blue1_1 {
   position: absolute;
-  height: 350px;
+  height: 340px;
   width: 300px;
   background-color: #0f084b;
   z-index: 0;
-  top: 30%;
-  left: 6%;
+  top: 65%;
+  left: 4%;
 }
 
 .blaabaggrundsfarve {
