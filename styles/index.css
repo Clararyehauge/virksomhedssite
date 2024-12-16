@@ -92,7 +92,7 @@ img {
       width: 80px;
       height: 80px;
       background: #f77f00;
-      position: absolute;
+      position: relative;
       left: 33%;
       top: 204%;
       z-index: -10;
@@ -109,6 +109,7 @@ img {
   padding: 40px;
   left: 7%;
 }
+
 .blue1_1 {
   position: absolute;
   height: 340px;
@@ -116,7 +117,29 @@ img {
   background-color: #0f084b;
   z-index: 0;
   top: 65%;
-  left: 4%;
+  left: 6%;
+}
+
+@media (min-width: 600px) {
+  .img_section1 {
+    .skolevogn {
+      width: 500px;
+      height: auto;
+      display: inline-block;
+      z-index: 1;
+      padding: 40px;
+      left: 16%;
+    }
+
+    .blue1_1 {
+      height: 440px;
+      width: 400px;
+      background-color: #0f084b;
+      z-index: 0;
+      top: 127%;
+      left: 7%;
+    }
+  }
 }
 
 .blaabaggrundsfarve {
@@ -125,6 +148,11 @@ img {
 
 p {
   font-family: "Hind Madurai";
+  /* padding-left: 4%; */
+}
+
+h2 {
+  font-family: "DM sans";
 }
 
 /* @media screen and (min-width: 800px) {
