@@ -54,21 +54,16 @@ main {
   width: 300px;
   height: 300px;
   background-size: cover;
-  background-position: center;
+  background-position: fit;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #000000;
-  font-size: 1.2em;
-  font-weight: bold;
-  text-shadow: 1px 1px 3px rgba(126, 121, 121, 0.5);
-  border-radius: 8px;
 }
 
 .name-text {
   margin-top: 10px;
   font-size: 1em;
-  font-weight: 500;
+  font-weight: 600;
   color: #333;
 }
 
