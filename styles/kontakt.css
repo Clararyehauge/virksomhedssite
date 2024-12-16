@@ -9,6 +9,11 @@ main {
   padding: 20px;
 }
 
+h1{
+  text-align: center;
+  margin-bottom: 3rem;
+  font-family: "DM Sans";
+}
 .top-section {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
@@ -50,7 +55,7 @@ main {
   align-items: center;
 }
 
-.image-text {
+.image-kl {
   width: 350px;
   height: 400px;
   background-size: cover;
@@ -130,7 +135,7 @@ button:hover {
 }
 
 .stars {
-  color: #00c76d; /* Trustpilot green */
+  color: #00c76d; 
   font-size: 1.5em;
   margin-bottom: 10px;
 }
@@ -143,6 +148,7 @@ button:hover {
 .review p {
   margin: 10px 0;
   line-height: 1.5;
+  font-weight: lighter;
 }
 
 .reviewer {
@@ -152,5 +158,11 @@ button:hover {
 
 .reviewer span {
   font-size: 0.9em;
-  color: #aaa;
+  color: #f77f00;
+  
 }
+
+@media (min-width: 800px)
+{}
+  
+
