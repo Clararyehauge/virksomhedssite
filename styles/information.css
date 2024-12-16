@@ -10,7 +10,7 @@ main {
   box-sizing: border-box;
 }
 body {
-  padding: 20px;
+  padding-inline: 20px;
   margin: 0;
 }
 .img3_1 {
@@ -139,7 +139,7 @@ ul {
   flex-shrink: 0;
   padding-left: 10px;
   position: absolute;
-  right: 720px;
+  right: 60px;
   z-index: 1;
 }
 .navn {
@@ -148,9 +148,9 @@ ul {
   text-align: left;
 }
 .navn::after {
-  content: "..............................................................................";
+  content: "...........";
   position: absolute;
-  left: 255px;
+  right: 75px;
   white-space: nowrap;
   overflow: hidden;
 }
@@ -161,8 +161,13 @@ ul {
 }
 .discount {
   color: #f77f00;
+  font-weight: 600;
   position: absolute;
-  right: 47%;
+  right: 60px;
+}
+.final_pris {
+  color: #f77f00;
+  font-weight: 600;
 }
 @media (min-width: 600px) {
   .grid3_1 {
@@ -227,5 +232,49 @@ ul {
     z-index: 0;
     top: 143%;
     left: 58%;
+  }
+  /*********************PRISER********************/
+  .priser_list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+  }
+  .pris {
+    flex-shrink: 0;
+    padding-left: 10px;
+    position: absolute;
+    right: 720px;
+    z-index: 1;
+  }
+  .navn {
+    flex-grow: 1;
+    position: relative;
+    text-align: left;
+  }
+  .navn::after {
+    content: ".............................................................";
+    position: absolute;
+    left: 255px;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  .pris_list li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  .discount {
+    color: #f77f00;
+    position: absolute;
+    right: 10%;
+  }
+  .final_pris {
+    color: #f77f00;
+  }
+  .grid3_4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
   }
 }
