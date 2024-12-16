@@ -218,11 +218,7 @@ li {
     text-align: center;
     margin: 80px 0;
     z-index: 2;
-=======
-  p {
-    font-size: 16;
->>>>>>> 4c8ad278af5ddbd3f3f6baaefb524335622c4ee1
-  }
+=======}
   .grid3_1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
