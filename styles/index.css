@@ -1,3 +1,8 @@
+/* 
+font-family: "Hind Madurai"
+font-family: "DM Sans" 
+*/
+
 img {
   width: 100%;
 }
@@ -34,17 +39,31 @@ img {
     /* gap: 10px; */
   }
 
-  .kategorier {
-    font-family: "DM sans";
-    text-align: center;
-    padding: 1.5%;
-    letter-spacing: 2px;
-  }
-
   .grid1_3 img {
     align-self: stretch;
     object-fit: cover;
   }
+}
+
+.grid1_3 {
+  background-color: #f77f00;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.undervisning {
+  width: 397px;
+  height: auto;
+}
+
+.skilte {
+  width: 375px;
+  height: auto;
+}
+
+.haendtryk {
+  width: 375px;
+  height: auto;
 }
 
 @media (min-width: 1200px) {
@@ -54,25 +73,31 @@ img {
   }
 }
 
+.drivetrafikskole {
+  font-family: "DM Sans";
+  font-size: 25px;
+}
+
 .orange {
   width: 80px;
   height: 80px;
   background: #f77f00;
   position: absolute;
   left: 7%;
-  bottom: 40%;
+  bottom: 38%;
   z-index: -10;
 }
 
 .italic {
   font-style: italic;
-  margin-left: 50px;
+  margin-left: 60px;
   margin-bottom: 4%;
+  font-size: 12px;
 }
 
 .header {
-  margin-top: 60px;
-  margin-left: 15%;
+  margin-top: 43px;
+  margin-left: 16%;
   z-index: 10;
 }
 
@@ -80,13 +105,13 @@ img {
   .grid_overskrift {
     .italic {
       font-style: italic;
-      margin-left: 170px;
+      margin-left: 145px;
       margin-bottom: 4%;
     }
 
     .header {
       margin-top: 60px;
-      margin-left: 500px;
+      margin-left: 435px;
       z-index: 10;
     }
 
@@ -96,7 +121,7 @@ img {
       background: #f77f00;
       position: relative;
       left: 33%;
-      top: 204%;
+      top: 150%;
       z-index: -10;
     }
   }
@@ -114,62 +139,37 @@ img {
 
 .blue1_1 {
   position: absolute;
-  height: 340px;
+  height: 300px;
   width: 300px;
   background-color: #0f084b;
   z-index: 0;
-  top: 65%;
+  top: 70%;
   left: 6%;
 }
 
 @media (min-width: 600px) {
-  .img_section1 {
-    .skolevogn {
-      width: 500px;
-      height: auto;
-      display: inline-block;
-      z-index: 1;
-      padding: 40px;
-      left: 16%;
-    }
+  .skolevogn {
+    width: 370px;
+    height: auto;
+    display: inline-block;
+    z-index: 1;
+    padding: 40px;
+    left: 16%;
+  }
 
-    .blue1_1 {
-      height: 440px;
-      width: 400px;
-      background-color: #0f084b;
-      z-index: 0;
-      top: 127%;
-      left: 7%;
-    }
+  .blue1_1 {
+    height: 440px;
+    width: 400px;
+    background-color: #0f084b;
+    z-index: 0;
+    top: 127%;
+    left: 7%;
   }
 }
 
 .blaabaggrundsfarve {
   background-color: #d6eaf8;
 }
-
-p {
-  font-family: "Hind Madurai";
-  /* padding-left: 4%; */
-}
-
-h2 {
-  font-family: "DM sans";
-}
-
-/* @media screen and (min-width: 800px) {
-  main {
-    padding-inline: 80px;
-    padding-block: 30px;
-  }
-} */
-
-.undervisning {
-  width: 400px;
-  height: auto;
-}
-]
-
 
 /*lovpakke*/
 @media (min-width: 800px) {
@@ -181,12 +181,6 @@ h2 {
   }
 }
 
-/*Information*/
-@media (min-width: 800px) {
-  .informationtekst {
-    padding: 10%;
-  }
-}
 .test {
   padding: 10%;
 }
@@ -198,4 +192,44 @@ h2 {
     padding-right: 30%;
     margin-bottom: 5%;
   }
+}
+
+/*informationtekst*/
+@media (min-width: 800px) {
+  .informationtekst {
+    padding: 10%;
+  }
+}
+
+/*tekst styling*/
+p {
+  font-family: "Hind Madurai";
+}
+
+h2 {
+  font-family: "DM sans";
+  font-weight: 100;
+  font-size: 22px;
+}
+
+.hvadkanvitilbyde {
+  font-size: 22px;
+  font-family: "DM Sans";
+  font-weight: 100;
+  padding: 2%;
+}
+
+.tekst1 {
+  font-size: 13px;
+  font-family: "Hind Madurai";
+  padding: 2%;
+  padding-right: 2%;
+}
+
+.kategorier {
+  font-family: "DM sans";
+  text-align: center;
+  padding: 1.5%;
+  letter-spacing: 2px;
+  font-weight: 100;
 }

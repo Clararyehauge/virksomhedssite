@@ -9,48 +9,59 @@ main {
   padding: 20px;
 }
 
+h1 {
+  text-align: center;
+  margin-bottom: 3rem;
+  font-family: "DM Sans";
+}
+
 .top-section {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
   gap: 20px;
   margin-bottom: 40px;
+  background-color: #f77f00;
+  border-radius: 50px;
 }
 
 .kontakt-os,
-.driving-school {
-  padding: 20px;
+.drive-trafikskole {
+  padding: 25px;
   border: 1px solid #ccc;
-  background: #fff;
+  background-color: #0f084b;
   text-align: center;
-  border-radius: 5px;
+  border-radius: 50px;
 }
 
-.mød-kørerlærerne {
-  margin-bottom: 40px;
-  text-align: center;
-  padding: 40px 20px;
-  background-color: #f9f9f9; 
-}
-
-.mød-kørerlærerne h2 {
-  margin-bottom: 20px;
+.mød-kørelærerne {
   text-align: center;
 }
 
 .instructors {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 20px;
-  justify-items: center;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
 }
 
-.instructor {
+.kørerlærer {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.image-text {
+.instructor img {
+  width: 200px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.name-text {
+  margin-top: 10px;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.image-kl {
   width: 350px;
   height: 400px;
   background-size: cover;
@@ -66,25 +77,50 @@ main {
   font-weight: 600;
   color: #333;
 }
-
-.images-with-buttons {
-  display: flex;
-  justify-content: space-around;
-  gap: 20px;
-  margin-bottom: 40px;
+.billederWbutton {
 }
 
+/* General Section Styling */
+.img-knap {
+  display: flex; /* Align the images horizontally */
+  justify-content: center; /* Center the images */
+  gap: 20px; /* Add space between images */
+  padding: 20px; /* Add some padding around */
+}
+
+/* Image Container */
+.image-container {
+  position: relative; /* For positioning the button */
+  width: 200px; /* Set the desired width for images */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Make the Image Smaller */
+.image-container img {
+  width: 100%; /* Make the image fit its container */
+  height: auto; /* Keep proportions */
+  display: block; /* Remove extra spacing */
+  border-radius: 8px; /* Optional: Add rounded corners */
+}
+
+/* Button on Top of the Image */
 .image-button {
-  text-align: center;
-  padding: 20px;
-  border: 1px solid #ccc;
-  background: #fff;
+  position: absolute; /* Place the button over the image */
+  top: 50%; /* Move it to the center vertically */
+  left: 50%; /* Move it to the center horizontally */
+  transform: translate(-50%, -50%); /* Perfect centering */
+  background-color: #1e0c71(0, 123, 255, 0.8); /* Button background with opacity */
+  color: #fff; /* Text color */
+  border: none;
+  padding: 10px 15px;
   border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
 }
 
-.image {
-  margin-bottom: 10px;
-  font-weight: bold;
+/* Button Hover Effect */
+.image-button:hover {
+  background-color: #1e0c71(0, 123, 255, 1); /* Solid background on hover */
 }
 
 button {
@@ -94,6 +130,7 @@ button {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  align-items: center;
 }
 
 button:hover {
@@ -104,7 +141,7 @@ button:hover {
   text-align: center;
   border: 1px solid #ccc;
   border-radius: 5px;
-  background-color: #111;
+  background-color: #1e3058;
   color: #fff;
   padding: 40px 20px;
   text-align: center;
@@ -130,7 +167,7 @@ button:hover {
 }
 
 .stars {
-  color: #00c76d; /* Trustpilot green */
+  color: #00c76d;
   font-size: 1.5em;
   margin-bottom: 10px;
 }
@@ -143,6 +180,7 @@ button:hover {
 .review p {
   margin: 10px 0;
   line-height: 1.5;
+  font-weight: lighter;
 }
 
 .reviewer {
@@ -152,5 +190,8 @@ button:hover {
 
 .reviewer span {
   font-size: 0.9em;
-  color: #aaa;
+  color: #f77f00;
+}
+
+@media (min-width: 800px) {
 }
