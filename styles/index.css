@@ -19,6 +19,7 @@ img {
   .grid1_2 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px;
     gap: 5%;
   }
 }
@@ -29,7 +30,15 @@ img {
     grid-template-columns: 1fr 1fr 1fr;
     background-color: #f77f00;
     padding: 10px;
+    gap: 10px;
   }
+
+  .kategorier {
+    font-family: "DM sans";
+    text-align: center;
+    padding: 1%;
+  }
+
   .grid1_3 img {
     align-self: stretch;
     object-fit: cover;
@@ -83,7 +92,7 @@ img {
       width: 80px;
       height: 80px;
       background: #f77f00;
-      position: absolute;
+      position: relative;
       left: 33%;
       top: 204%;
       z-index: -10;
@@ -91,8 +100,59 @@ img {
   }
 }
 
+.img_section1 img {
+  width: 400px;
+  height: auto;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  padding: 40px;
+  left: 7%;
+}
+
+.blue1_1 {
+  position: absolute;
+  height: 340px;
+  width: 300px;
+  background-color: #0f084b;
+  z-index: 0;
+  top: 65%;
+  left: 6%;
+}
+
+@media (min-width: 600px) {
+  .img_section1 {
+    .skolevogn {
+      width: 500px;
+      height: auto;
+      display: inline-block;
+      z-index: 1;
+      padding: 40px;
+      left: 16%;
+    }
+
+    .blue1_1 {
+      height: 440px;
+      width: 400px;
+      background-color: #0f084b;
+      z-index: 0;
+      top: 127%;
+      left: 7%;
+    }
+  }
+}
+
 .blaabaggrundsfarve {
-  background-color: #aed6f1;
+  background-color: #d6eaf8;
+}
+
+p {
+  font-family: "Hind Madurai";
+  /* padding-left: 4%; */
+}
+
+h2 {
+  font-family: "DM sans";
 }
 
 /* @media screen and (min-width: 800px) {

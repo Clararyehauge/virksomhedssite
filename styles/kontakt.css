@@ -25,14 +25,14 @@ main {
   border-radius: 5px;
 }
 
-.mød.kørerlærerne {
+.mød-kørerlærerne {
   margin-bottom: 40px;
   text-align: center;
   padding: 40px 20px;
-  background-color: #f9f9f9; /* Light background for contrast */
+  background-color: #f9f9f9; 
 }
 
-.mød.kørerlærerne h2 {
+.mød-kørerlærerne h2 {
   margin-bottom: 20px;
   text-align: center;
 }
@@ -51,8 +51,8 @@ main {
 }
 
 .image-text {
-  width: 300px;
-  height: 300px;
+  width: 350px;
+  height: 400px;
   background-size: cover;
   background-position: fit;
   display: flex;
@@ -89,7 +89,7 @@ main {
 
 button {
   padding: 10px 20px;
-  background: #007bff;
+  background: #1e0c71;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -97,7 +97,7 @@ button {
 }
 
 button:hover {
-  background: #0056b3;
+  background: #103256;
 }
 
 .anmeldelser {
