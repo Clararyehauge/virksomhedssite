@@ -121,7 +121,7 @@ img {
       background: #f77f00;
       position: relative;
       left: 33%;
-      top: 204%;
+      top: 150%;
       z-index: -10;
     }
   }
@@ -171,13 +171,6 @@ img {
   background-color: #d6eaf8;
 }
 
-/* @media screen and (min-width: 800px) {
-  main {
-    padding-inline: 80px;
-    padding-block: 30px;
-  }
-} */
-
 /*lovpakke*/
 @media (min-width: 800px) {
   .lovpakke {
@@ -215,6 +208,8 @@ p {
 
 h2 {
   font-family: "DM sans";
+  font-weight: 100;
+  font-size: 22px;
 }
 
 .hvadkanvitilbyde {
@@ -228,6 +223,7 @@ h2 {
   font-size: 13px;
   font-family: "Hind Madurai";
   padding: 2%;
+  padding-right: 2%;
 }
 
 .kategorier {
@@ -235,4 +231,5 @@ h2 {
   text-align: center;
   padding: 1.5%;
   letter-spacing: 2px;
+  font-weight: 100;
 }

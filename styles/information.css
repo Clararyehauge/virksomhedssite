@@ -15,50 +15,25 @@ main {
 }
 
 .img3_1 {
-  margin-top: 2rem;
-  width: 90%;
+  width: 200%;
   height: auto;
   display: block;
   box-shadow: 5px 10px #f77f00;
 }
-/*********Orange square*****/
-.container {
-  margin-top: 2rem;
-  display: grid;
-  width: 600px;
-  height: 200px;
-  grid-template-columns: 1fr 2fr;
-  grid-template-rows: 1fr 1fr;
-  position: relative;
-}
-.orange {
-  width: 80px;
-  height: 80px;
-  background: #f77f00;
-  grid-column: 1/2;
-  grid-row: 1/3;
-  z-index: 1;
-}
-.italic {
-  font-style: italic;
-}
+
 .header {
-  grid-column: 1/2;
-  grid-row: 1/3;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 20px;
+  position: relative;
   text-align: center;
   margin: 80px 0;
   z-index: 2;
 }
 .img_section img {
-  width: 80%;
+  width: 400px;
   height: auto;
   display: inline-block;
   position: relative;
-  box-shadow: 15px 10px #0f084b;
+  z-index: 1;
+  padding: 40px;
 }
 
 ul {
@@ -99,7 +74,19 @@ ul {
   font-weight: 400;
   line-height: normal;
 }**/
-
+.orange {
+  width: 80px;
+  height: 80px;
+  background: #f77f00;
+  position: absolute;
+  left: 6%;
+  bottom: -8%;
+  z-index: 0;
+}
+.italic {
+  font-style: italic;
+  margin-left: 60px;
+}
 .priser {
   border: #aed6f1;
   border-width: 8px;
@@ -168,46 +155,8 @@ ul {
   width: 300px;
 }
 @media (min-width: 600px) {
-  .img_section img {
-    margin-left: 80px;
-    margin-bottom: 80px;
-    width: 100%;
-    height: auto;
-    display: inline-block;
-    position: relative;
-    box-shadow: 15px 10px #0f084b;
-  }
-  /*********Orange square*****/
-  .container {
-    margin-top: 2rem;
-    display: grid;
-    width: 800px;
-    height: 400px;
-    grid-template-columns: 1fr 2fr;
-    grid-template-rows: 1fr 1fr;
-    position: relative;
-  }
-  .orange {
-    width: 80px;
-    height: 80px;
-    background: #f77f00;
-    grid-column: 1;
-    grid-row: 1/3;
-    z-index: 1;
-  }
-  .italic {
-    font-style: italic;
-  }
-  .header {
-    grid-column: 3;
-    grid-row: 2/3;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 20px;
-    text-align: center;
-    margin: 80px 0;
-    z-index: 2;
+  p {
+    font-size: 16;
   }
   .grid3_1 {
     display: grid;
