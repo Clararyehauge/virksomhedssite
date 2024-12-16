@@ -43,6 +43,61 @@ img {
   }
 }
 
+.orange {
+  width: 80px;
+  height: 80px;
+  background: #f77f00;
+  position: absolute;
+  left: 7%;
+  bottom: 40%;
+  z-index: -10;
+}
+
+.italic {
+  font-style: italic;
+  margin-left: 50px;
+  margin-bottom: 4%;
+}
+
+.header {
+  margin-top: 60px;
+  margin-left: 15%;
+  z-index: 10;
+}
+
+@media (min-width: 800px) {
+  .grid_overskrift {
+    .italic {
+      font-style: italic;
+      margin-left: 170px;
+      margin-bottom: 4%;
+    }
+
+    .header {
+      margin-top: 60px;
+      margin-left: 500px;
+      z-index: 10;
+    }
+
+    .orange {
+      width: 80px;
+      height: 80px;
+      background: #f77f00;
+      position: absolute;
+      left: 33%;
+      top: 204%;
+      z-index: -10;
+    }
+  }
+}
+
 .blaabaggrundsfarve {
   background-color: #aed6f1;
 }
+
+/* @media screen and (min-width: 800px) {
+  main {
+    padding-inline: 80px;
+    padding-block: 30px;
+  }
+} */
