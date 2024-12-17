@@ -12,7 +12,12 @@ main {
 main {
   padding-inline: 20px;
 }
-
+.video1 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  max-width: 560px;
+  height: auto;
+}
 .img3_1 {
   width: 200%;
   height: auto;
@@ -36,7 +41,6 @@ main {
 .img_section img {
   width: 80%;
   height: auto;
-  position: relative;
   box-shadow: 15px -15px #0f084b;
   margin-bottom: 3rem;
   margin-top: 3rem;
@@ -214,11 +218,8 @@ li {
 .final_pris {
   color: #f77f00;
 }
-.ul_1 {
-  z-index: 2;
-}
+
 .grid3_4 {
-  width: 1000px;
   background-color: #d6eaf8;
   margin-bottom: 2rem;
 }
@@ -235,9 +236,6 @@ li {
   z-index: -1;
 }
 @media (min-width: 600px) {
-  .attention {
-    margin-left: 52%;
-  }
   .hvorfor {
     margin-top: 2rem;
   }
@@ -262,12 +260,11 @@ li {
     margin-top: 25px;
     margin-left: -40px;
   }
-  .ul_1 {
-    margin-top: 7rem;
-  }
+
   .grid3_3 {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 40px;
   }
   .img_section img {
     margin-left: 80px;
