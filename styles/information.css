@@ -11,7 +11,6 @@ main {
 }
 main {
   padding-inline: 20px;
-  margin: 0;
 }
 
 .img3_1 {
@@ -21,27 +20,16 @@ main {
   box-shadow: 15px -15px #f77f00;
   margin-top: 45rem;
 }
+.overskrift_orange {
+  font-size: 1.5rem;
+  margin-top: 10%;
+}
 /*********Orange square****/
-.container {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  grid-template-rows: 1fr 1fr;
-  position: relative;
-}
-.orange {
-  width: 80px;
-  height: 80px;
-  background: #f77f00;
-  grid-column: 1/2;
-  grid-row: 1/3;
-  z-index: -1;
-}
 
 .head {
   margin-left: -50%;
 }
 .italic {
-  margin-left: -25%;
   text-align: left;
 }
 
@@ -51,15 +39,14 @@ main {
   position: relative;
   box-shadow: 15px -15px #0f084b;
   margin-bottom: 3rem;
+  margin-top: 3rem;
 }
 
 ul,
 li {
   padding: 10px;
 }
-.hvorfor {
-  margin-top: 6rem;
-}
+
 /**********Blue square******/
 
 .container_2 {
@@ -115,9 +102,23 @@ li {
 }*/
 
 .knap3 {
+  transform: translate(-50%, -50%);
+  background-color: #1e0c71;
+  color: #fff;
   border: none;
-  border-radius: 10px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  align-items: center;
+  text-decoration: none;
 }
+
+.knap3:hover {
+  background: #f77f00;
+}
+
 .grid3_2 {
   padding: 10px;
   margin-top: 5rem;
@@ -145,6 +146,7 @@ li {
 
 .produkt {
   border-bottom: 1px dashed #0f084b;
+  padding: 5px;
 }
 .produkt .navn {
   font-weight: 800;
@@ -273,24 +275,7 @@ li {
     box-shadow: 15px -15px #0f084b;
   }
   /*********Orange square*****/
-  .container {
-    width: 80%;
-    max-width: 1200px;
-    display: grid;
-    height: 300px;
-    grid-template-columns: 300px 1fr;
-    grid-template-rows: 1fr;
-    position: relative;
-  }
-  .orange {
-    width: 80px;
-    height: 80px;
-    background: #f77f00;
-    grid-column: 1/2;
-    grid-row: 1/2;
-    z-index: -1;
-    margin-left: 50%;
-  }
+
   .orange1 {
     width: 80px;
     height: 80px;
@@ -302,7 +287,6 @@ li {
   .italic {
     font-style: italic;
     margin-bottom: 3rem;
-    margin-left: -70%;
   }
 
   .grid3_1 {
@@ -324,6 +308,5 @@ li {
     margin-top: 20px;
     margin-bottom: 20px;
     padding-bottom: 20px;
-    width: 210vh;
   }
 }
