@@ -220,6 +220,7 @@ li {
 .grid3_4 {
   width: 1000px;
   background-color: #d6eaf8;
+  margin-bottom: 2rem;
 }
 .grid3_4 h2 {
   margin-bottom: 1rem;
@@ -255,6 +256,7 @@ li {
     gap: 40px;
     max-width: 100%;
     margin: auto;
+    margin-bottom: 2rem;
   }
   .opmaerksom {
     margin-top: 25px;
