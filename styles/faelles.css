@@ -83,6 +83,7 @@ nav {
   transition: color 0.3s;
   text-align: end;
   font-family: "DM Sans";
+  font-weight: 100;
 }
 
 .menu a:hover {
@@ -226,6 +227,18 @@ footer {
 h1 {
   font-family: "DM Sans";
   font-size: 30px;
+}
+
+h2 {
+  font-family: "DM Sans";
+}
+
+a {
+  font-family: "Hind Madurai";
+}
+
+li {
+  font-family: "Hind Madurai";
 }
 
 h3 {
