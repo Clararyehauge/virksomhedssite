@@ -31,7 +31,7 @@ li {
 }
 
 main {
-  padding-inline: 40px;
+  padding-inline: 100px;
 }
 
 .boks1 {
@@ -53,6 +53,7 @@ main {
 
 .grid2_3 {
   background-color: #d6eaf8;
+  margin-bottom: 3rem;
 }
 
 .autop {
@@ -155,7 +156,7 @@ main {
     width: 100%;
     margin-top: 2rem;
     box-shadow: 15px -15px #f77f00;
-    height: 68vh;
+    height: 55vh;
     object-fit: cover;
   }
 
@@ -163,7 +164,11 @@ main {
     margin-bottom: 4rem;
     margin-top: 2rem;
     box-shadow: -15px -15px #0f084b;
-    height: 68vh;
+    height: 55vh;
     object-fit: cover;
+  }
+
+  main {
+    padding-inline: 150px;
   }
 }
