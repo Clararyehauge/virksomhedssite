@@ -177,7 +177,7 @@ img {
 /*informationtekst*/
 @media (min-width: 800px) {
   .tekst_information {
-    padding: 10%;
+    padding: 7%;
   }
 }
 
