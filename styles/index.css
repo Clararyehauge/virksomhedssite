@@ -3,6 +3,11 @@ font-family: "Hind Madurai"
 font-family: "DM Sans" 
 */
 
+main {
+  max-width: 1200px;
+  margin-inline: auto;
+}
+
 img {
   width: 100%;
 }
@@ -17,6 +22,8 @@ img {
   .grid1_1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding-inline: 80px;
+    padding-block: 30px;
   }
 }
 
@@ -73,26 +80,16 @@ img {
   }
 }
 
+.container_orange {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  width: 470px;
+  margin-inline: auto;
+}
 .drivetrafikskole {
   font-family: "DM Sans";
-  font-size: 25px;
-}
-
-.orange {
-  width: 80px;
-  height: 80px;
-  background: #f77f00;
-  position: absolute;
-  left: 7%;
-  bottom: 38%;
-  z-index: -10;
-}
-
-.italic {
-  font-style: italic;
-  margin-left: 60px;
-  margin-bottom: 4%;
-  font-size: 12px;
+  font-size: 20px;
 }
 
 .header {
@@ -101,69 +98,24 @@ img {
   z-index: 10;
 }
 
-@media (min-width: 800px) {
-  .grid_overskrift {
-    .italic {
-      font-style: italic;
-      margin-left: 145px;
-      margin-bottom: 4%;
-    }
-
-    .header {
-      margin-top: 60px;
-      margin-left: 435px;
-      z-index: 10;
-    }
-
-    .orange {
-      width: 80px;
-      height: 80px;
-      background: #f77f00;
-      position: relative;
-      left: 33%;
-      top: 150%;
-      z-index: -10;
-    }
-  }
-}
-
 .img_section1 img {
   width: 400px;
   height: auto;
   display: inline-block;
   position: relative;
   z-index: 1;
-  padding: 40px;
-  left: 7%;
-}
-
-.blue1_1 {
-  position: absolute;
-  height: 300px;
-  width: 300px;
-  background-color: #0f084b;
-  z-index: 0;
-  top: 70%;
-  left: 6%;
+  box-shadow: -20px -20px #0f084b;
+  margin-top: 2rem;
+  margin-left: 1rem;
 }
 
 @media (min-width: 600px) {
-  .skolevogn {
+  .img_section1 {
     width: 370px;
     height: auto;
     display: inline-block;
     z-index: 1;
-    padding: 40px;
     left: 16%;
-  }
-
-  .blue1_1 {
-    height: 440px;
-    width: 400px;
-    background-color: #0f084b;
-    z-index: 0;
-    top: 127%;
-    left: 7%;
   }
 }
 
@@ -202,10 +154,6 @@ img {
 }
 
 /*tekst styling*/
-p {
-  font-family: "Hind Madurai";
-}
-
 h2 {
   font-family: "DM sans";
   font-weight: 100;
@@ -218,14 +166,10 @@ h2 {
   font-size: 22px;
   font-family: "DM Sans";
   font-weight: 100;
-  padding: 2%;
 }
 
 .tekst1 {
-  font-size: 13px;
   font-family: "Hind Madurai";
-  padding: 2%;
-  padding-right: 2%;
 }
 
 .kategorier {
