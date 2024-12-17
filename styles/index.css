@@ -3,95 +3,14 @@ font-family: "Hind Madurai"
 font-family: "DM Sans" 
 */
 
-main {
-  max-width: 1200px;
-  margin-inline: auto;
-}
-
-main {
-  padding-inline: 20px;
-}
-
-img {
-  width: 100%;
-}
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-@media (min-width: 1200px) {
-  .grid1_1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding-inline: 80px;
-    padding-block: 30px;
-  }
-}
-
-@media (min-width: 600px) {
-  .grid1_2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    padding: 20px;
-    gap: 5%;
-  }
-}
-
-@media (min-width: 1000px) {
-  .grid1_3 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    background-color: #f77f00;
-    padding-top: 25px;
-    padding-bottom: 25px;
-  }
-  .grid1_3 img {
-    align-self: stretch;
-    object-fit: cover;
-  }
-}
-
-@media (min-width: 1000px) {
-  .grid1_3 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    background-color: #f77f00;
-    padding-top: 25px;
-    padding-bottom: 25px;
-  }
-  .grid1_3 img {
-    align-self: stretch;
-    object-fit: cover;
-  }
-}
-
-@media (min-width: 400px) {
-  .grid1_3 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    background-color: #f77f00;
-    padding-top: 25px;
-    padding-bottom: 25px;
-  }
-  */ .grid1_3 img {
-    align-self: stretch;
-    object-fit: cover;
-  }
-}
-
-@media (min-width: 1200px) {
-  .grid1_4 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
-.drivetrafikskole {
-  font-family: "DM Sans";
-  font-size: 20px;
+img {
+  width: 100%;
 }
 
 .header {
@@ -100,6 +19,13 @@ img {
   z-index: 10;
 }
 
+main {
+  max-width: 1200px;
+  margin-inline: auto;
+  padding-inline: 20px;
+}
+
+/*Kodning af elementer på site*/
 .img_section1 img {
   width: 400px;
   height: auto;
@@ -121,9 +47,96 @@ img {
   }
 }
 
+.hvadkanvitilbyde {
+  margin-top: 2rem;
+}
+
+.hvadkanvitilbyde2 {
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 1200px) {
+  .grid1_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-inline: 80px;
+    padding-block: 30px;
+  }
+}
+
+@media (min-width: 600px) {
+  .grid1_2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px;
+    gap: 5%;
+  }
+}
+
 .blaabaggrundsfarve {
   background-color: #d6eaf8;
   padding: 1rem;
+}
+
+.kategorier {
+  text-align: center;
+  padding: 1.5%;
+  letter-spacing: 1.5px;
+}
+
+.kategorier1 {
+  margin-bottom: 1rem;
+}
+
+.kategorier2 {
+  margin-bottom: 1rem;
+}
+
+/*lovpakke*/
+@media (min-width: 800px) {
+  .lovpakke {
+    padding-left: 30%;
+    padding-right: 30%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .grid1_3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #f77f00;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  .grid1_3 img {
+    align-self: stretch;
+    object-fit: cover;
+  }
+}
+
+.lovpakke1 {
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.lovpakke2 {
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 400px) {
+  .grid1_3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #f77f00;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  .grid1_3 img {
+    align-self: stretch;
+    object-fit: cover;
+  }
 }
 
 .container_clara {
@@ -141,7 +154,7 @@ img {
   grid-column: 1/2;
   grid-row: 1/4;
   place-self: center;
-  margin-left: 5rem;
+  margin-left: 7rem;
 }
 .overskrift_clara {
   grid-column: 1/3;
@@ -149,16 +162,25 @@ img {
   place-self: center;
 }
 
+.information1 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.information2 {
+  margin-bottom: 1rem;
+}
+
 .container_clara2 {
   display: grid;
   grid-template-columns: 2fr 3fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
   width: 370px;
   margin-inline: auto;
 }
 
 .kasse_clara2 {
-  width: 30%;
+  width: 26%;
   aspect-ratio: 1/1;
   background: #f77f00;
   grid-column: 1/2;
@@ -172,13 +194,22 @@ img {
   place-self: center;
 }
 
-/*lovpakke*/
+.overskrift_clara2 {
+  font-size: 21px;
+  padding-top: 2rem;
+}
+
+/*informationtekst*/
 @media (min-width: 800px) {
-  .lovpakke {
-    padding-left: 30%;
-    padding-right: 30%;
-    margin-bottom: 5%;
-    margin-top: 5%;
+  .tekst_information {
+    padding: 7%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .grid1_4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 }
 
@@ -197,29 +228,11 @@ img {
   }
 }
 
-.overskrift_clara2 {
-  font-size: 21px;
-  padding-top: 2rem;
-}
-
-/*informationtekst*/
-@media (min-width: 800px) {
-  .tekst_information {
-    padding: 7%;
-  }
-}
-
-/*tekst styling*/
-.hvadkanvitilbyde {
-  font-size: 22px;
-  font-family: "DM Sans";
-  font-weight: 100;
+.gratisinformation1 {
   margin-top: 1rem;
 }
 
-.kategorier {
-  font-family: "DM sans";
-  text-align: center;
-  padding: 1.5%;
-  letter-spacing: 2px;
+.gratisinformation2 {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
 }
