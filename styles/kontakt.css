@@ -184,3 +184,28 @@ button:hover {
 
 @media (min-width: 800px) {
 }
+
+.container_mardi {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  width: 370px;
+  margin-inline: auto;
+}
+
+.kasse_mardi {
+  width: 70%;
+  aspect-ratio: 1/1;
+  background: #f77f00;
+  grid-column: 1/2;
+  grid-row: 1/3;
+  place-self: center;
+  margin-left: 6rem;
+  margin-top: 10%;
+
+}
+.overskrift_mardi {
+  grid-column: 1/3;
+  grid-row: 2/3;
+  place-self: center;
+}
