@@ -31,7 +31,7 @@ li {
 }
 
 main {
-  padding: 40px;
+  padding-inline: 40px;
 }
 
 .boks1 {
@@ -51,22 +51,6 @@ main {
   background: var(--primary);
 } */
 
-h1 {
-  text-align: center;
-  margin-bottom: 3rem;
-  font-family: "DM Sans";
-  position: relative;
-  z-index: 1;
-}
-
-h2 {
-  font-family: "DM Sans";
-}
-
-p {
-  font-family: "Hind Madurai";
-}
-
 .grid2_3 {
   background-color: #d6eaf8;
 }
@@ -77,6 +61,29 @@ p {
 
 .autoimg {
   padding: 20px;
+}
+
+.container_sara {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  width: 370px;
+  margin-inline: auto;
+}
+
+.kasse_sara {
+  width: 50%;
+  aspect-ratio: 1/1;
+  background: #f77f00;
+  grid-column: 1/2;
+  grid-row: 1/4;
+  place-self: center;
+  margin-left: 3rem;
+}
+.overskrift_sara {
+  grid-column: 1/3;
+  grid-row: 2/3;
+  place-self: center;
 }
 
 @media screen and (max-width: 800px) {
