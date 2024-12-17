@@ -17,15 +17,13 @@ main {
 .img3_1 {
   width: 200%;
   height: auto;
-
-  box-shadow: 5px 10px #f77f00;
+  object-fit: cover;
+  box-shadow: 15px -15px #f77f00;
   margin-top: 45rem;
 }
 /*********Orange square****/
 .container {
   display: grid;
-  width: 600px;
-  height: 100px;
   grid-template-columns: 1fr 2fr;
   grid-template-rows: 1fr 1fr;
   position: relative;
@@ -51,7 +49,7 @@ main {
   width: 80%;
   height: auto;
   position: relative;
-  box-shadow: 10px 15px #0f084b;
+  box-shadow: 15px -15px #0f084b;
   margin-bottom: 3rem;
 }
 
@@ -102,18 +100,23 @@ li {
   margin: 20px;
   z-index: 2;
 }
-
+/*
 .knap3 {
   display: inline-block;
   background-color: grey;
-  width: 100px;
-  height: 40px;
+  width: 120px;
+  height: 60px;
   font-weight: 600;
   text-align: center;
   text-decoration: none;
   color: #0f084b;
   padding: 2%;
   border: solid 1px #aed6f1;
+}*/
+
+.knap3 {
+  border: none;
+  border-radius: 10px;
 }
 .grid3_2 {
   padding: 10px;
@@ -198,10 +201,8 @@ li {
 .img3_1 {
   width: 100%;
   height: auto;
-  display: block;
+
   margin-top: 2rem;
-  position: relative;
-  box-shadow: 5px 10px #f77f00;
 }
 
 .discount {
@@ -215,8 +216,13 @@ li {
   z-index: 2;
 }
 .grid3_4 {
+  width: 1000px;
   background-color: #d6eaf8;
 }
+.grid3_4 h2 {
+  margin-bottom: 1rem;
+}
+
 .orange1 {
   width: 80px;
   height: 80px;
@@ -226,6 +232,12 @@ li {
   z-index: -1;
 }
 @media (min-width: 600px) {
+  .attention {
+    margin-left: 52%;
+  }
+  .hvorfor {
+    margin-top: 2rem;
+  }
   .ul_2 {
     max-width: 400px;
   }
@@ -234,11 +246,13 @@ li {
     width: 500px;
   }
   .grid3_4 {
+    padding: 20px;
     background-color: #d6eaf8;
     display: grid;
     grid-template-columns: 1fr 1fr;
-
     gap: 40px;
+    max-width: 100%;
+    margin: auto;
   }
   .opmaerksom {
     margin-top: 25px;
@@ -256,7 +270,7 @@ li {
     width: 90%;
     height: auto;
     position: relative;
-    box-shadow: 15px 10px #0f084b;
+    box-shadow: 15px -15px #0f084b;
   }
   /*********Orange square*****/
   .container {
@@ -295,6 +309,9 @@ li {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 150px;
+  }
+  .container {
+    margin-top: 25%;
   }
 
   .grid3_2 {
