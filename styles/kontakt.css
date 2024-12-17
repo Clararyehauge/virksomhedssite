@@ -13,7 +13,9 @@ h1 {
   text-align: center;
   margin-bottom: 3rem;
   font-family: "DM Sans";
+  font-weight: lighter;
 }
+
 
 .top-section {
   display: grid;
