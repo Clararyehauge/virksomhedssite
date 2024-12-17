@@ -8,6 +8,10 @@ main {
   margin-inline: auto;
 }
 
+main {
+  padding-inline: 20px;
+}
+
 img {
   width: 100%;
 }
