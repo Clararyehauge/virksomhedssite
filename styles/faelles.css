@@ -150,6 +150,14 @@ nav {
 /* menu slut */
 
 /*Styling af orange kasse*/
+.container_orange {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  width: 470px;
+  margin-inline: auto;
+}
+
 .kasse_orange {
   width: 100%;
   aspect-ratio: 1/1;

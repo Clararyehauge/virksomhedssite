@@ -36,6 +36,34 @@ img {
   }
 }
 
+@media (min-width: 1000px) {
+  .grid1_3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #f77f00;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  .grid1_3 img {
+    align-self: stretch;
+    object-fit: cover;
+  }
+}
+
+@media (min-width: 1000px) {
+  .grid1_3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #f77f00;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  .grid1_3 img {
+    align-self: stretch;
+    object-fit: cover;
+  }
+}
+
 @media (min-width: 400px) {
   .grid1_3 {
     display: grid;
@@ -43,35 +71,28 @@ img {
     background-color: #f77f00;
     padding-top: 25px;
     padding-bottom: 25px;
-    /* gap: 10px; */
   }
-
-  .grid1_3 img {
+  */ .grid1_3 img {
     align-self: stretch;
     object-fit: cover;
   }
 }
 
-.grid1_3 {
-  background-color: #f77f00;
-  padding-top: 25px;
-  padding-bottom: 25px;
-}
-
+/* 
 .undervisning {
-  width: 397px;
+  width: 476px;
   height: auto;
 }
 
 .skilte {
-  width: 375px;
+  width: 451px;
   height: auto;
 }
 
 .haendtryk {
-  width: 375px;
+  width: 450px;
   height: auto;
-}
+} */
 
 @media (min-width: 1200px) {
   .grid1_4 {
@@ -80,13 +101,6 @@ img {
   }
 }
 
-.container_orange {
-  display: grid;
-  grid-template-columns: 1fr 3fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  width: 470px;
-  margin-inline: auto;
-}
 .drivetrafikskole {
   font-family: "DM Sans";
   font-size: 20px;
@@ -134,8 +148,9 @@ img {
 }
 
 .test {
-  padding: 10%;
-  box-shadow: -20px -20px #0f084b;
+  box-shadow: 20px -20px #aed6f1;
+  margin-top: 3rem;
+  margin-right: 1rem;
 }
 
 /*gratis information*/
@@ -167,6 +182,7 @@ h2 {
   font-size: 22px;
   font-family: "DM Sans";
   font-weight: 100;
+  margin-top: 1rem;
 }
 
 .tekst1 {
