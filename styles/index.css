@@ -40,11 +40,6 @@ img {
   }
 }
 
-.bilkørekort {
-  width: 400;
-  height: auto;
-}
-
 @media (min-width: 1000px) {
   .grid1_3 {
     display: grid;
@@ -128,6 +123,7 @@ img {
 
 .blaabaggrundsfarve {
   background-color: #d6eaf8;
+  padding: 1rem;
 }
 
 .container_clara {
