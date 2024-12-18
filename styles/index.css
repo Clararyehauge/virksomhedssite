@@ -29,7 +29,7 @@ main {
 .herocontainer {
   position: relative;
   width: 100%;
-  max-width: 1500px;
+  max-width: 100%;
   width: 100%;
   height: auto;
 }
