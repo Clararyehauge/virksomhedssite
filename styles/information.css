@@ -17,13 +17,13 @@ main {
   margin-bottom: 2rem;
   max-width: 100%;
   height: auto;
-  box-shadow: 15px -15px #0f084b;
+  box-shadow: 15px -15px var(--primary);
 }
 .img3_1 {
   width: 200%;
   height: auto;
   object-fit: cover;
-  box-shadow: 15px -15px #f77f00;
+  box-shadow: 15px -15px var(--accent);
   margin-top: 45rem;
 }
 .overskrift_orange {
@@ -39,7 +39,7 @@ main {
 .img_section img {
   width: 80%;
   height: auto;
-  box-shadow: 15px -15px #0f084b;
+  box-shadow: 15px -15px var(--primary);
   margin-bottom: 3rem;
   margin-top: 3rem;
 }
@@ -147,13 +147,13 @@ li {
 }
 .discount {
   float: right;
-  color: #f77f00;
+  color: var(--accent);
   font-weight: 600;
 }
 .final_pris {
   font-size: 1.5rem;
   float: right;
-  color: #0f084b;
+  color: var(--primary);
   font-weight: bold;
 }
 .opmaerksom {
