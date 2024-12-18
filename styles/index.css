@@ -45,7 +45,42 @@ main {
   }
 }
 
-@media (max-width: 1450px) {
+@media (min-width: 750px) {
+  .lottie {
+    position: absolute;
+    top: 3%;
+    left: 30%;
+    z-index: 1;
+    object-fit: cover;
+    transform: scale(0.8);
+  }
+}
+
+@media (min-width: 800px) {
+  .lottie {
+    position: absolute;
+    top: 16%;
+    left: 35%;
+    z-index: 1;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1.1);
+  }
+}
+
+/* @media (max-width: 900px) {
+  .lottie {
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    z-index: 1;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1);
+  }
+} */
+
+@media (min-width: 1200px) {
   .lottie {
     position: absolute;
     top: 22%;
