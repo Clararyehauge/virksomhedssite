@@ -270,6 +270,10 @@ li {
   grid-row: 1/2;
   z-index: -1;
 }
+.grid3_1 {
+  display: grid;
+  justify-content: center;
+}
 
 .hvorfor {
   margin-top: 5rem;
