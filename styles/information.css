@@ -109,7 +109,7 @@ li {
 .grid3_2 {
   padding: 10px;
   margin-top: 5rem;
-  background-color: #d6eaf8;
+  background-color: var(--secondary);
   display: grid;
   padding-bottom: 5px;
 }
@@ -135,7 +135,7 @@ li {
 }
 
 .produkt {
-  border-bottom: 1px dashed #0f084b;
+  border-bottom: 1px dashed var(--primary);
   padding: 5px;
 }
 .produkt .navn {
@@ -188,7 +188,7 @@ li {
 }
 
 .grid3_4 {
-  background-color: #d6eaf8;
+  background-color: var(--secondary);
   margin-bottom: 2rem;
 }
 .grid3_4 h2 {
@@ -205,7 +205,7 @@ li {
 .kasse_tanya {
   width: 150%;
   aspect-ratio: 1/1;
-  background: #f77f00;
+  background: var(--accent);
   grid-column: 1/2;
   grid-row: 1/4;
   place-self: center;
@@ -228,7 +228,7 @@ li {
 .kasse_tanya1 {
   width: 115%;
   aspect-ratio: 1/1;
-  background: #aed6f1;
+  background: var(--secondary);
   grid-column: 1/2;
   grid-row: 1/4;
   place-self: center;
@@ -243,7 +243,7 @@ li {
 .orange1 {
   width: 80px;
   height: 80px;
-  background: #f77f00;
+  background: var(--accent);
   grid-column: 1/2;
   grid-row: 1/2;
   z-index: -1;
@@ -252,7 +252,7 @@ li {
 .kasse_tanya2 {
   width: 30%;
   aspect-ratio: 1/1;
-  background: #f77f00;
+  background: var(--accent);
   grid-column: 1/2;
   grid-row: 1/4;
   place-self: center;
@@ -265,7 +265,7 @@ li {
 .orange2 {
   width: 80px;
   height: 80px;
-  background: #f77f00;
+  background: var(--accent);
   grid-column: 1/2;
   grid-row: 1/2;
   z-index: -1;
@@ -289,7 +289,7 @@ li {
     margin-bottom: 2rem;
     max-width: 560px;
     height: auto;
-    box-shadow: 15px -15px #0f084b;
+    box-shadow: 15px -15px var(--primary);
   }
   .hvorfor {
     margin-top: 2rem;
@@ -306,7 +306,7 @@ li {
   }
   .grid3_4 {
     padding: 20px;
-    background-color: #d6eaf8;
+    background-color: var(--secondary);
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 40px;
@@ -331,14 +331,14 @@ li {
     width: 90%;
     height: auto;
     position: relative;
-    box-shadow: 15px -15px #0f084b;
+    box-shadow: 15px -15px var(--primary);
   }
   /*********Orange square*****/
 
   .orange1 {
     width: 80px;
     height: 80px;
-    background: #f77f00;
+    background: var(--accent);
     grid-column: 1/2;
     grid-row: 1/2;
     z-index: -1;
@@ -360,7 +360,7 @@ li {
   .grid3_2 {
     padding: 10px;
     margin-top: 1rem;
-    background-color: #d6eaf8;
+    background-color: var(--secondary);
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 100px;
