@@ -283,11 +283,11 @@ h4 {
   background-color: #aed6f1;
   color: #000000;
   text-decoration: none;
-  width: 130px;
-  padding: 10px;
+  width: 20%;
   margin-top: 2rem;
   margin-bottom: 2rem;
-  font-size: 40;
+  font-size: 14px;
+  padding: 2%;
 }
 
 .knap:hover {
